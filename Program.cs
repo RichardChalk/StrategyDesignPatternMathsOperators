@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace StrategyDemo
 {
@@ -6,6 +8,16 @@ namespace StrategyDemo
     {
         static void Main(string[] args)
         {
+            // STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY
+            // STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY
+            // STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY
+            // STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY STRATEGY
+            
+            // Strategy pattern is used when...
+            // We have 'multiple' algorithm for a specific task
+            // ...and client decides the actual implementation to be used at 'runtime'.
+            // ================================================================================
+            
             int value1 = 8;
             int value2 = 2;
             int result;
